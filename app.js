@@ -14,7 +14,7 @@ var answer4 = null;
 var answer5 = null;
 var score = 0;
 
-
+function question1() {
 if (ready.toUpperCase() === 'Y') {
     answer1 = prompt('Am I from Tennessee? Y/N');
     console.log('Still a country bumpkin')
@@ -28,7 +28,8 @@ if (ready.toUpperCase() === 'Y') {
         console.log(score);
     }
 
-
+}
+    function question2() {
     answer2 = prompt('Did I use to live in a small town? Y/N');
     console.log('Everyone knows everybody!')
     if(answer2.toUpperCase() === 'Y' || answer2.toUpperCase() === 'YES') {
@@ -41,9 +42,9 @@ if (ready.toUpperCase() === 'Y') {
         alert('Dang..That aint it');
     }
 
+}
 
-
-
+    function question3() {
     answer3 = prompt('Do I like VR systems? Y/N');
     console.log('Things are getting real..')
     if(answer3.toUpperCase() === 'Y' || answer3.toUpperCase() === 'YES') {
@@ -55,9 +56,9 @@ if (ready.toUpperCase() === 'Y') {
         alert('Game Over');
     }
 
+}
 
-
-
+    function question4() {
     answer4 = prompt('Do i like Software Development? Y/N');
     console.log('Coding is my game..')
     if(answer4.toUpperCase() === 'Y' || answer4.toUpperCase() === 'YES') {
@@ -69,10 +70,10 @@ if (ready.toUpperCase() === 'Y') {
         alert('Where am I?');
     }
 
+}
 
 
-
-
+    function question5() {
     answer5 = prompt('Do I like Musicals? Y/N');
     console.log('I am not throwin away my shot!')
     if(answer5.toUpperCase() === 'Y' || answer5.toUpperCase() === 'YES') {
@@ -83,6 +84,7 @@ if (ready.toUpperCase() === 'Y') {
     if(answer5.toLowerCase() === 'n' || answer5.toLowerCase() === 'no'){
         alert('Noone mourns the Wicked.. ):' )
     }
+}
 
     alert('Welcome, ' + user);
     
@@ -116,7 +118,7 @@ if (ready.toUpperCase() === 'Y') {
             } 
         }  
     }
-    var flowers = new Array('tulip ', 'rose ', 'blossum ', 'buttercup ', "gray's lily ", 'lily ');
+    var flowers = new Array('tulip', 'rose', 'blossum', 'buttercup', "gray's lily", 'lily');
    
         loop1: for (var i = 0; i < 6; i++){
         var question = prompt ('what are my favorite flowers?'); 
