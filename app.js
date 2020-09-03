@@ -28,6 +28,7 @@ if (ready.toUpperCase() === 'Y') {
         console.log(score);
     }
 
+    }
 }
     question1();
 
@@ -95,7 +96,7 @@ if (ready.toUpperCase() === 'Y') {
     alert('Welcome, ' + user);
     
     
-} 
+ 
 
     function guessingGame(){
     var correctAnswer = 25;
