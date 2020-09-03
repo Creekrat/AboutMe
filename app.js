@@ -18,11 +18,11 @@ var score = 0;
 if (ready.toUpperCase() === 'Y') {
     answer1 = prompt('Am I from Tennessee? Y/N');
     console.log('Still a country bumpkin')
-    if(answer1.toUpperCase() ==='Y') {
+    if(answer1.toUpperCase() ==='Y' || answer1.toUpperCase() === 'YES') {
         alert('Shoot Fire..');
     }
 
-    if (answer1.toLowerCase() === 'n') {
+    if (answer1.toLowerCase() === 'n' || answer1.toLowerCase() === 'no') {
         alert('Git R Done');
         ++score;
         console.log(score);
@@ -31,13 +31,13 @@ if (ready.toUpperCase() === 'Y') {
 
     answer2 = prompt('Did I use to live in a small town? Y/N');
     console.log('Everyone knows everybody!')
-    if(answer2.toUpperCase() === 'Y') {
+    if(answer2.toUpperCase() === 'Y' || answer2.toUpperCase() === 'YES') {
         alert('Dang Skippy');
         ++score;
         console.log(score);
     }
 
-    if(answer2.toLowerCase() === 'n') {
+    if(answer2.toLowerCase() === 'n' || answer2.toLowerCase() === 'no') {
         alert('Dang..That aint it');
     }
 
@@ -46,12 +46,12 @@ if (ready.toUpperCase() === 'Y') {
 
     answer3 = prompt('Do I like VR systems? Y/N');
     console.log('Things are getting real..')
-    if(answer3.toUpperCase() === 'Y') {
+    if(answer3.toUpperCase() === 'Y' || answer3.toUpperCase() === 'YES') {
         alert('Out of this world!');
         ++score;
         console.log(score);
     }
-    if(answer3.toLowerCase() === 'n'){
+    if(answer3.toLowerCase() === 'n' || answer3.toLowerCase() === 'no'){
         alert('Game Over');
     }
 
@@ -60,12 +60,12 @@ if (ready.toUpperCase() === 'Y') {
 
     answer4 = prompt('Do i like Software Development? Y/N');
     console.log('Coding is my game..')
-    if(answer4.toUpperCase() === 'Y') {
+    if(answer4.toUpperCase() === 'Y' || answer4.toUpperCase() === 'YES') {
         alert('Lovin it!');
         ++score;
         console.log(score);
     }
-    if(answer4.toLowerCase() === 'n'){
+    if(answer4.toLowerCase() === 'n' || answer4.toLowerCase() === 'no'){
         alert('Where am I?');
     }
 
@@ -75,12 +75,12 @@ if (ready.toUpperCase() === 'Y') {
 
     answer5 = prompt('Do I like Musicals? Y/N');
     console.log('I am not throwin away my shot!')
-    if(answer5.toUpperCase() === 'Y') {
+    if(answer5.toUpperCase() === 'Y' || answer5.toUpperCase() === 'YES') {
         alert('You are a mind at work!');
        ++score;
         console.log(score);
     }
-    if(answer5.toLowerCase() === 'n'){
+    if(answer5.toLowerCase() === 'n' || answer5.toLowerCase() === 'no'){
         alert('Noone mourns the Wicked.. ):' )
     }
 
@@ -91,10 +91,10 @@ if (ready.toUpperCase() === 'Y') {
     var correctAnswer = 25;
     var gameTime = prompt("want to play different game?");
 
-    if (gameTime.toLowerCase() === 'n') {
+    if (gameTime.toLowerCase() === 'n' || gameTime.toLowerCase() === 'no') {
         alert("fine then... I didn't want to play with you either...): ");
 
-    }else if (gameTime.toUpperCase() === 'Y') {
+    }else if (gameTime.toUpperCase() === 'Y' || gameTime.toUpperCase() === 'YES') {
         
             for (var i =0; i < 4; i++) {
             var playGame = prompt('I am thinking of a number between 1 and 100');
