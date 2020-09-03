@@ -91,7 +91,7 @@ if (ready.toUpperCase() === 'Y') {
     var correctAnswer = 25;
     var gameTime = prompt("want to play different game?");
 
-    if (gameTime.toLowerCase() === 'n' || .toLowerCase() === 'no'){
+    if (gameTime.toLowerCase() === 'n') {
         alert("fine then... I didn't want to play with you either...): ");
 
     }else if (gameTime.toUpperCase() === 'Y') {
@@ -121,7 +121,7 @@ if (ready.toUpperCase() === 'Y') {
         loop1: for (var i = 0; i < 6; i++){
         var question = prompt ('what are my favorite flowers?'); 
         console.log(question);
-            loop2: for (j = 0; j < flowers.length; j++){
+            loop2: for (var j = 0; j < flowers.length; j++){
                 console.log(flowers[j]);
               if (flowers[j] === question ){
                   alert('Correct!!');
@@ -130,7 +130,9 @@ if (ready.toUpperCase() === 'Y') {
               }
             }
     }
-
+            if (i == 5){
+                alert("These are my favorites!" + flowers);
+            }
      
 
     alert('You got ' + score + ' right!')
