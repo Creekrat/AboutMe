@@ -29,6 +29,8 @@ if (ready.toUpperCase() === 'Y') {
     }
 
 }
+    question1();
+
     function question2() {
     answer2 = prompt('Did I use to live in a small town? Y/N');
     console.log('Everyone knows everybody!')
@@ -43,6 +45,7 @@ if (ready.toUpperCase() === 'Y') {
     }
 
 }
+    question2();
 
     function question3() {
     answer3 = prompt('Do I like VR systems? Y/N');
@@ -57,6 +60,7 @@ if (ready.toUpperCase() === 'Y') {
     }
 
 }
+    question3();
 
     function question4() {
     answer4 = prompt('Do i like Software Development? Y/N');
@@ -71,6 +75,7 @@ if (ready.toUpperCase() === 'Y') {
     }
 
 }
+    question4();
 
 
     function question5() {
@@ -85,11 +90,13 @@ if (ready.toUpperCase() === 'Y') {
         alert('Noone mourns the Wicked.. ):' )
     }
 }
+    question5();
 
     alert('Welcome, ' + user);
     
     
 } 
+
     function guessingGame(){
     var correctAnswer = 25;
     var gameTime = prompt("want to play different game?");
@@ -120,7 +127,9 @@ if (ready.toUpperCase() === 'Y') {
         }  
     }
 }
-    function myFavoriteflowers() {
+    guessingGame();
+
+    function myFavoriteFlowers() {
     var flowers = new Array('tulip', 'rose', 'blossum', 'buttercup', "gray's lily", 'lily');
    
         loop1: for (var i = 0; i < 6; i++){
@@ -139,6 +148,7 @@ if (ready.toUpperCase() === 'Y') {
                 alert("These are my favorites! " + flowers);
             }
     }
-    }        
+}      
+    myFavoriteFlowers();
 
     alert('You got ' + score + ' right!')
