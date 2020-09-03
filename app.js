@@ -112,7 +112,7 @@ if (ready.toUpperCase() === 'Y') {
 
             } 
             if (i == 3) {
-                alert("You know what's funnier than 24? " + correctAnswer);
+                alert("You know what's funnier than 24?.....  " + correctAnswer);
             } 
         }  
     }
@@ -127,12 +127,13 @@ if (ready.toUpperCase() === 'Y') {
                   alert('Correct!!');
                   ++score;
                 console.log(flowers);
+                break loop1;
               }
             }
-    }
             if (i == 5){
                 alert("These are my favorites!" + flowers);
             }
-     
+    }
+        
 
     alert('You got ' + score + ' right!')
