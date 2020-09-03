@@ -116,7 +116,7 @@ if (ready.toUpperCase() === 'Y') {
             } 
         }  
     }
-    var flowers = new Array('tulip', 'rose', 'blossum', 'buttercup', "gray's lily", 'lily');
+    var flowers = new Array('tulip ', 'rose ', 'blossum ', 'buttercup ', "gray's lily ", 'lily ');
    
         loop1: for (var i = 0; i < 6; i++){
         var question = prompt ('what are my favorite flowers?'); 
@@ -131,7 +131,7 @@ if (ready.toUpperCase() === 'Y') {
               }
             }
             if (i == 5){
-                alert("These are my favorites!" + flowers);
+                alert("These are my favorites! " + flowers);
             }
     }
         
