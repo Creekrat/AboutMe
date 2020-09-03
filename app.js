@@ -90,6 +90,7 @@ if (ready.toUpperCase() === 'Y') {
     
     
 } 
+    function guessingGame(){
     var correctAnswer = 25;
     var gameTime = prompt("want to play different game?");
 
@@ -118,6 +119,8 @@ if (ready.toUpperCase() === 'Y') {
             } 
         }  
     }
+}
+    function myFavoriteflowers() {
     var flowers = new Array('tulip', 'rose', 'blossum', 'buttercup', "gray's lily", 'lily');
    
         loop1: for (var i = 0; i < 6; i++){
@@ -136,6 +139,6 @@ if (ready.toUpperCase() === 'Y') {
                 alert("These are my favorites! " + flowers);
             }
     }
-        
+    }        
 
     alert('You got ' + score + ' right!')
