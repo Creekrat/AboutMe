@@ -12,3 +12,9 @@
   - My 7th question will consist of multiple correct answers and they will be stored inside of an array. The user will have 6 tries to guess the correct answers and if they guess correctly the guesses will end (this also, happens if they run out of attempts..). I will display all the possible outcomes to the user.
   - I am adding in a score keeper to let the user know how many of the questions they got right out of all 7 questions i have in my js.
   - and the cherry on top...CSS to make it all look pretty.
+
+ **Lab03**
+  - I worked with Jeff Ostlund.
+  - I started and finished my project on my own because of technicalities but once we sorted things out i was able to help him get things situated on his page and be his Driver. 
+  - I was an observer for another group when i was working alone and i observed Aysia Elise and Tahmina Ringer. They were super helpful if i needed help and worked well with one another on their projects. 
+  - I really enjoyed the Pair Programming.
