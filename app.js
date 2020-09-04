@@ -15,7 +15,6 @@ var answer5 = null;
 var score = 0;
 
 function question1() {
-if (ready.toUpperCase() === 'Y') {
     answer1 = prompt('Am I from Tennessee? Y/N');
     console.log('Still a country bumpkin')
     if(answer1.toUpperCase() ==='Y' || answer1.toUpperCase() === 'YES') {
@@ -28,9 +27,7 @@ if (ready.toUpperCase() === 'Y') {
         console.log(score);
     }
 
-    }
 }
-    question1();
 
     function question2() {
     answer2 = prompt('Did I use to live in a small town? Y/N');
@@ -46,7 +43,6 @@ if (ready.toUpperCase() === 'Y') {
     }
 
 }
-    question2();
 
     function question3() {
     answer3 = prompt('Do I like VR systems? Y/N');
@@ -61,7 +57,7 @@ if (ready.toUpperCase() === 'Y') {
     }
 
 }
-    question3();
+
 
     function question4() {
     answer4 = prompt('Do i like Software Development? Y/N');
@@ -76,7 +72,7 @@ if (ready.toUpperCase() === 'Y') {
     }
 
 }
-    question4();
+ 
 
 
     function question5() {
@@ -91,8 +87,13 @@ if (ready.toUpperCase() === 'Y') {
         alert('Noone mourns the Wicked.. ):' )
     }
 }
+if(ready.toUpperCase() === 'Y' || ready.toUpperCase() ==='YES'){
+    question1();
+    question2();
+    question3();
+    question4();
     question5();
-
+}
     alert('Welcome, ' + user);
     
     
