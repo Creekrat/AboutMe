@@ -6,7 +6,7 @@
 }
 
 .text {
-    color: darkblue;
+    color:whitesmoke;
     background-color: pink;
  
 }
@@ -19,6 +19,7 @@
 body{
     
     background-color: lightseagreen;
+
 }
 section{
    font-size: 40px;
