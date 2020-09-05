@@ -31,7 +31,7 @@ function question1() {
 
     function question2() {
     answer2 = prompt('Did I use to live in a small town? Y/N');
-    console.log('Everyone knows everybody!')
+    console.log('Everyone knows everybody!');
     if(answer2.toUpperCase() === 'Y' || answer2.toUpperCase() === 'YES') {
         alert('Dang Skippy');
         ++score;
@@ -46,7 +46,7 @@ function question1() {
 
     function question3() {
     answer3 = prompt('Do I like VR systems? Y/N');
-    console.log('Things are getting real..')
+    console.log('Things are getting real..');
     if(answer3.toUpperCase() === 'Y' || answer3.toUpperCase() === 'YES') {
         alert('Out of this world!');
         ++score;
@@ -61,7 +61,7 @@ function question1() {
 
     function question4() {
     answer4 = prompt('Do i like Software Development? Y/N');
-    console.log('Coding is my game..')
+    console.log('Coding is my game..');
     if(answer4.toUpperCase() === 'Y' || answer4.toUpperCase() === 'YES') {
         alert('Lovin it!');
         ++score;
@@ -77,17 +77,17 @@ function question1() {
 
     function question5() {
     answer5 = prompt('Do I like Musicals? Y/N');
-    console.log('I am not throwin away my shot!')
+    console.log('I am not throwin away my shot!');
     if(answer5.toUpperCase() === 'Y' || answer5.toUpperCase() === 'YES') {
         alert('You are a mind at work!');
        ++score;
         console.log(score);
     }
     if(answer5.toLowerCase() === 'n' || answer5.toLowerCase() === 'no'){
-        alert('Noone mourns the Wicked.. ):' )
+        alert('Noone mourns the Wicked.. ):' );
     }
 }
-if(ready.toUpperCase() === 'Y' || ready.toUpperCase() ==='YES'){
+if(ready.toUpperCase() === 'Y' || ready.toUpperCase() ==='YES') {
     question1();
     question2();
     question3();
