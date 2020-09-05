@@ -1,12 +1,13 @@
 #all-about-me {
-    color: blue;
+    color: whitesmoke;
     font-size: 40px;
     border-style: dashed;
     background-color: brown;
+    text-align: center;
 }
 
 .text {
-    color:whitesmoke;
+    color:black;
     background-color: pink;
  
 }
