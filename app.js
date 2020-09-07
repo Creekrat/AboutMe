@@ -132,7 +132,7 @@ if(ready.toUpperCase() === 'Y' || ready.toUpperCase() ==='YES') {
     guessingGame();
 
     function myFavoriteFlowers() {
-    var flowers = new Array('tulip', 'rose', 'blossum', 'buttercup', "gray's lily", 'lily');
+    var flowers = new Array('tulip', 'rose', 'blossum', 'buttercup', "gray's-lily", 'lily');
    
         loop1: for (var i = 0; i < 6; i++){
         var question = prompt ('what are my favorite flowers?'); 
@@ -144,6 +144,7 @@ if(ready.toUpperCase() === 'Y' || ready.toUpperCase() ==='YES') {
                   ++score;
                 console.log(flowers);
                 break loop1;
+                alert("These are my favorite flowers! " + flowers);
               }
             }
             if (i == 5){
